@@ -1,3 +1,18 @@
+# Paul Ireifej, Udacity Student
+# Project 6 - Feed Reader Testing
+
+Hello. Welcome to Project 6. To run this application, simply visit index.html in your browser. The jasmine unit tests will run automatically and the content will appear on the bottom of your screen. Please note that the tests FAIL because of the third new test I made.
+
+I created three additional test cases:
+
+- A test that ensures the menu hides when a menu item is clicked.
+- A test that ensures when a new feed is loaded by the loadFeed function that the hyperlink actually exists.
+- A test that iterates over all feeds, loads the content, and then ensures that an <h2> (article title) and <p> (article blurb) element exist. This test fails because the first feed generates a title, but no blurb.
+
+Thank you.
+
+-------------------------------------------
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
