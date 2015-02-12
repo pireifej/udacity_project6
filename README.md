@@ -7,7 +7,7 @@ I created three additional test cases:
 
 - A test that ensures the menu hides when a menu item is clicked.
 - A test that ensures when a new feed is loaded by the loadFeed function that the hyperlink actually exists.
-- A test that iterates over all feeds, loads the content, and then ensures that an <h2> (article title) and <p> (article blurb) element exist. This test fails because the first feed generates a title, but no blurb.
+- A test that iterates over all feeds, loads the content, and then ensures that an h2 (article title) and p (article blurb) element exist. This test fails because the first feed generates a title, but no blurb.
 
 Thank you.
 
